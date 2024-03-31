@@ -1,0 +1,21 @@
+{
+  "name": "web-test",
+  "version": "1.0.0",
+  "description": "# Jokee Single Serving Website This is a PHP evaluation test to create a single serving website that displays jokes for user to vote.",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "uuid": "^9.0.1"
+  }
+}
