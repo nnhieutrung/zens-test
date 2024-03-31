@@ -1,4 +1,4 @@
-const db = require("./mysql.js");
+const db = require("../utils/database.js");
 
 function findByUser(userId) {
     return new Promise((resolve, reject) => {
