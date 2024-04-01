@@ -2,10 +2,10 @@
   "name": "web-test",
   "version": "1.0.0",
   "description": "# Jokee Single Serving Website This is a PHP evaluation test to create a single serving website that displays jokes for user to vote.",
-  "main": "./server/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server/index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
